@@ -1,0 +1,82 @@
+CMake Warning at C:/Users/lanaw/esp/frameworks/esp-idf-v5.3.1/components/partition_table/project_include.cmake:23 (message):
+  Partition table CSV file
+  C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv
+  not found.  Change custom partition CSV path in menuconfig.
+Call Stack (most recent call first):
+  C:/Users/lanaw/esp/frameworks/esp-idf-v5.3.1/tools/cmake/build.cmake:400 (include)
+  C:/Users/lanaw/esp/frameworks/esp-idf-v5.3.1/tools/cmake/build.cmake:632 (__build_process_project_includes)
+  C:/Users/lanaw/esp/frameworks/esp-idf-v5.3.1/tools/cmake/project.cmake:710 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
+Traceback (most recent call last):
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 363, in <module>
+    main()
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv'
+Traceback (most recent call last):
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 363, in <module>
+    main()
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv'
+Traceback (most recent call last):
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 363, in <module>
+    main()
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv'
+Traceback (most recent call last):
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 363, in <module>
+    main()
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv'
+Traceback (most recent call last):
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 363, in <module>
+    main()
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv'
+Traceback (most recent call last):
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 363, in <module>
+    main()
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv'
+Traceback (most recent call last):
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 363, in <module>
+    main()
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lanaw\esp\frameworks\esp-idf-v5.3.1\components\partition_table\parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv'
+ninja: error: 'C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv', needed by 'partition_table/partition-table.bin', missing and no known rule to make it

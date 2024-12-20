@@ -1,0 +1,317 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378276
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x178c
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xcb8
+load:0x403cb700,len:0x2db0
+entry 0x403c8914
+[0;32mI (26) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Nov  6 2024 12:23:59[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.1[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=0f144h ( 61764) map[0m
+[0;32mI (111) esp_image: segment 1: paddr=0001f16c vaddr=3fc92300 size=00each (  3756) load[0m
+[0;32mI (112) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=4a57ch (304508) map[0m
+[0;32mI (171) esp_image: segment 3: paddr=0006a5a4 vaddr=3fc931ac size=01ca8h (  7336) load[0m
+[0;32mI (173) esp_image: segment 4: paddr=0006c254 vaddr=40374000 size=0e268h ( 57960) load[0m
+[0;32mI (195) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (196) boot: Disabling RNG early entropy source...[0m
+[0;32mI (207) cpu_start: Multicore app[0m
+[0;32mI (216) cpu_start: Pro cpu start user code[0m
+[0;32mI (217) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (217) app_init: Application information:[0m
+[0;32mI (219) app_init: Project name:     GPIO_Example[0m
+[0;32mI (225) app_init: App version:      1.0. 1[0m
+[0;32mI (230) app_init: Compile time:     Nov  6 2024 12:24:42[0m
+[0;32mI (236) app_init: ELF file SHA256:  dbed6a64c...[0m
+[0;32mI (241) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (246) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (251) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (256) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (261) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (268) heap_init: At 3FC96E18 len 000528F8 (330 KiB): RAM[0m
+[0;32mI (274) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (280) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (286) heap_init: At 600FE100 len 00001EE8 (7 KiB): RTCRAM[0m
+[0;32mI (294) spi_flash: detected chip: gd[0m
+[0;32mI (297) spi_flash: flash io: dio[0m
+[0;32mI (302) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (308) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (315) main_task: Started on CPU0[0m
+[0;32mI (325) main_task: Calling app_main()[0m
+[0;32mI (325) MY_APP: Turning off the LED![0m
+[0;32mI (425) MY_APP: Turning off the LED![0m
+[0;32mI (525) MY_APP: Turning off the LED![0m
+[0;32mI (625) MY_APP: Turning off the LED![0m
+[0;32mI (725) MY_APP: Turning off the LED![0m
+[0;32mI (825) MY_APP: Turning off the LED![0m
+[0;32mI (925) MY_APP: Turning off the LED![0m
+[0;32mI (1025) MY_APP: Turning off the LED![0m
+[0;32mI (1125) MY_APP: Turning off the LED![0m
+[0;32mI (1225) MY_APP: Turning off the LED![0m
+[0;32mI (1325) MY_APP: Turning off the LED![0m
+[0;32mI (1425) MY_APP: Turning off the LED![0m
+[0;32mI (1525) MY_APP: Turning off the LED![0m
+[0;32mI (1625) MY_APP: Turning off the LED![0m
+[0;32mI (1725) MY_APP: Turning off the LED![0m
+[0;32mI (1825) MY_APP: Turning off the LED![0m
+[0;32mI (1925) MY_APP: Turning off the LED![0m
+[0;32mI (2025) MY_APP: Turning off the LED![0m
+[0;32mI (2125) MY_APP: Turning off the LED![0m
+[0;32mI (2225) MY_APP: Turning off the LED![0m
+[0;32mI (2325) MY_APP: Turning off the LED![0m
+[0;32mI (2425) MY_APP: Turning off the LED![0m
+[0;32mI (2525) MY_APP: Turning off the LED![0m
+[0;32mI (2625) MY_APP: Turning off the LED![0m
+[0;32mI (2725) MY_APP: Turning off the LED![0m
+[0;32mI (2825) MY_APP: Turning off the LED![0m
+[0;32mI (2925) MY_APP: Turning off the LED![0m
+[0;32mI (3025) MY_APP: Turning off the LED![0m
+[0;32mI (3125) MY_APP: Turning off the LED![0m
+[0;32mI (3225) MY_APP: Turning off the LED![0m
+[0;32mI (3325) MY_APP: Turning off the LED![0m
+[0;32mI (3425) MY_APP: Turning off the LED![0m
+[0;32mI (3525) MY_APP: Turning off the LED![0m
+[0;32mI (3625) MY_APP: Turning off the LED![0m
+[0;32mI (3725) MY_APP: Turning off the LED![0m
+[0;32mI (3825) MY_APP: Turning off the LED![0m
+[0;32mI (3925) MY_APP: Turning off the LED![0m
+[0;32mI (4025) MY_APP: Turning off the LED![0m
+[0;32mI (4125) MY_APP: Turning off the LED![0m
+[0;32mI (4225) MY_APP: Turning off the LED![0m
+[0;32mI (4325) MY_APP: Turning off the LED![0m
+[0;32mI (4425) MY_APP: Turning off the LED![0m
+[0;32mI (4525) MY_APP: Turning off the LED![0m
+[0;32mI (4625) MY_APP: Turning off the LED![0m
+[0;32mI (4725) MY_APP: Turning off the LED![0m
+[0;32mI (4825) MY_APP: Turning off the LED![0m
+[0;32mI (4925) MY_APP: Turning off the LED![0m
+[0;32mI (5025) MY_APP: Turning off the LED![0m
+[0;32mI (5125) MY_APP: Turning off the LED![0m
+[0;32mI (5225) MY_APP: Turning off the LED![0m
+[0;32mI (5325) MY_APP: Turning off the LED![0m
+[0;32mI (5425) MY_APP: Turning off the LED![0m
+[0;32mI (5525) MY_APP: Turning off the LED![0m
+[0;32mI (5625) MY_APP: Turning off the LED![0m
+[0;32mI (5725) MY_APP: Turning off the LED![0m
+[0;32mI (5825) MY_APP: Turning the LED![0m
+[0;32mI (5925) MY_APP: Turning the LED![0m
+[0;32mI (6025) MY_APP: Turning the LED![0m
+[0;32mI (6125) MY_APP: Turning the LED![0m
+[0;32mI (6225) MY_APP: Turning the LED![0m
+[0;32mI (6325) MY_APP: Turning the LED![0m
+[0;32mI (6425) MY_APP: Turning the LED![0m
+[0;32mI (6525) MY_APP: Turning the LED![0m
+[0;32mI (6625) MY_APP: Turning the LED![0m
+[0;32mI (6725) MY_APP: Turning the LED![0m
+[0;32mI (6825) MY_APP: Turning the LED![0m
+[0;32mI (6925) MY_APP: Turning the LED![0m
+[0;32mI (7025) MY_APP: Turning the LED![0m
+[0;32mI (7125) MY_APP: Turning the LED![0m
+[0;32mI (7225) MY_APP: Turning the LED![0m
+[0;32mI (7325) MY_APP: Turning the LED![0m
+[0;32mI (7425) MY_APP: Turning off the LED![0m
+[0;32mI (7525) MY_APP: Turning the LED![0m
+[0;32mI (7625) MY_APP: Turning the LED![0m
+[0;32mI (7725) MY_APP: Turning the LED![0m
+[0;32mI (7825) MY_APP: Turning the LED![0m
+[0;32mI (7925) MY_APP: Turning the LED![0m
+[0;32mI (8025) MY_APP: Turning the LED![0m
+[0;32mI (8125) MY_APP: Turning the LED![0m
+[0;32mI (8225) MY_APP: Turning the LED![0m
+[0;32mI (8325) MY_APP: Turning the LED![0m
+[0;32mI (8425) MY_APP: Turning the LED![0m
+[0;32mI (8525) MY_APP: Turning the LED![0m
+[0;32mI (8625) MY_APP: Turning the LED![0m
+[0;32mI (8725) MY_APP: Turning the LED![0m
+[0;32mI (8825) MY_APP: Turning the LED![0m
+[0;32mI (8925) MY_APP: Turning the LED![0m
+[0;32mI (9025) MY_APP: Turning the LED![0m
+[0;32mI (9125) MY_APP: Turning the LED![0m
+[0;32mI (9225) MY_APP: Turning the LED![0m
+[0;32mI (9325) MY_APP: Turning the LED![0m
+[0;32mI (9425) MY_APP: Turning the LED![0m
+[0;32mI (9525) MY_APP: Turning the LED![0m
+[0;32mI (9625) MY_APP: Turning the LED![0m
+[0;32mI (9725) MY_APP: Turning the LED![0m
+[0;32mI (9825) MY_APP: Turning the LED![0m
+[0;32mI (9925) MY_APP: Turning the LED![0m
+[0;32mI (10025) MY_APP: Turning the LED![0m
+[0;32mI (10125) MY_APP: Turning the LED![0m
+[0;32mI (10225) MY_APP: Turning the LED![0m
+[0;32mI (10325) MY_APP: Turning the LED![0m
+[0;32mI (10425) MY_APP: Turning the LED![0m
+[0;32mI (10525) MY_APP: Turning the LED![0m
+[0;32mI (10625) MY_APP: Turning the LED![0m
+[0;32mI (10725) MY_APP: Turning the LED![0m
+[0;32mI (10825) MY_APP: Turning the LED![0m
+[0;32mI (10925) MY_APP: Turning the LED![0m
+[0;32mI (11025) MY_APP: Turning the LED![0m
+[0;32mI (11125) MY_APP: Turning the LED![0m
+[0;32mI (11225) MY_APP: Turning the LED![0m
+[0;32mI (11325) MY_APP: Turning the LED![0m
+[0;32mI (11425) MY_APP: Turning the LED![0m
+[0;32mI (11525) MY_APP: Turning the LED![0m
+[0;32mI (11625) MY_APP: Turning the LED![0m
+[0;32mI (11725) MY_APP: Turning the LED![0m
+[0;32mI (11825) MY_APP: Turning the LED![0m
+[0;32mI (11925) MY_APP: Turning the LED![0m
+[0;32mI (12025) MY_APP: Turning the LED![0m
+[0;32mI (12125) MY_APP: Turning the LED![0m
+[0;32mI (12225) MY_APP: Turning the LED![0m
+[0;32mI (12325) MY_APP: Turning the LED![0m
+[0;32mI (12425) MY_APP: Turning the LED![0m
+[0;32mI (12525) MY_APP: Turning the LED![0m
+[0;32mI (12625) MY_APP: Turning the LED![0m
+[0;32mI (12725) MY_APP: Turning the LED![0m
+[0;32mI (12825) MY_APP: Turning the LED![0m
+[0;32mI (12925) MY_APP: Turning the LED![0m
+[0;32mI (13025) MY_APP: Turning the LED![0m
+[0;32mI (13125) MY_APP: Turning the LED![0m
+[0;32mI (13225) MY_APP: Turning the LED![0m
+[0;32mI (13325) MY_APP: Turning the LED![0m
+[0;32mI (13425) MY_APP: Turning the LED![0m
+[0;32mI (13525) MY_APP: Turning the LED![0m
+[0;32mI (13625) MY_APP: Turning the LED![0m
+[0;32mI (13725) MY_APP: Turning the LED![0m
+[0;32mI (13825) MY_APP: Turning the LED![0m
+[0;32mI (13925) MY_APP: Turning the LED![0m
+[0;32mI (14025) MY_APP: Turning the LED![0m
+[0;32mI (14125) MY_APP: Turning the LED![0m
+[0;32mI (14225) MY_APP: Turning the LED![0m
+[0;32mI (14325) MY_APP: Turning the LED![0m
+[0;32mI (14425) MY_APP: Turning the LED![0m
+[0;32mI (14525) MY_APP: Turning the LED![0m
+[0;32mI (14625) MY_APP: Turning the LED![0m
+[0;32mI (14725) MY_APP: Turning the LED![0m
+[0;32mI (14825) MY_APP: Turning the LED![0m
+[0;32mI (14925) MY_APP: Turning the LED![0m
+[0;32mI (15025) MY_APP: Turning the LED![0m
+[0;32mI (15125) MY_APP: Turning the LED![0m
+[0;32mI (15225) MY_APP: Turning the LED![0m
+[0;32mI (15325) MY_APP: Turning the LED![0m
+[0;32mI (15425) MY_APP: Turning the LED![0m
+[0;32mI (15525) MY_APP: Turning the LED![0m
+[0;32mI (15625) MY_APP: Turning the LED![0m
+[0;32mI (15725) MY_APP: Turning the LED![0m
+[0;32mI (15825) MY_APP: Turning the LED![0m
+[0;32mI (15925) MY_APP: Turning the LED![0m
+[0;32mI (16025) MY_APP: Turning the LED![0m
+[0;32mI (16125) MY_APP: Turning the LED![0m
+[0;32mI (16225) MY_APP: Turning the LED![0m
+[0;32mI (16325) MY_APP: Turning the LED![0m
+[0;32mI (16425) MY_APP: Turning the LED![0m
+[0;32mI (16525) MY_APP: Turning the LED![0m
+[0;32mI (16625) MY_APP: Turning the LED![0m
+[0;32mI (16725) MY_APP: Turning the LED![0m
+[0;32mI (16825) MY_APP: Turning the LED![0m
+[0;32mI (16925) MY_APP: Turning the LED![0m
+[0;32mI (17025) MY_APP: Turning the LED![0m
+[0;32mI (17125) MY_APP: Turning off the LED![0m
+[0;32mI (17225) MY_APP: Turning the LED![0m
+[0;32mI (17325) MY_APP: Turning the LED![0m
+[0;32mI (17425) MY_APP: Turning the LED![0m
+[0;32mI (17525) MY_APP: Turning the LED![0m
+[0;32mI (17625) MY_APP: Turning the LED![0m
+[0;32mI (17725) MY_APP: Turning the LED![0m
+[0;32mI (17825) MY_APP: Turning the LED![0m
+[0;32mI (17925) MY_APP: Turning the LED![0m
+[0;32mI (18025) MY_APP: Turning the LED![0m
+[0;32mI (18125) MY_APP: Turning the LED![0m
+[0;32mI (18225) MY_APP: Turning the LED![0m
+[0;32mI (18325) MY_APP: Turning the LED![0m
+[0;32mI (18425) MY_APP: Turning the LED![0m
+[0;32mI (18525) MY_APP: Turning the LED![0m
+[0;32mI (18625) MY_APP: Turning the LED![0m
+[0;32mI (18725) MY_APP: Turning the LED![0m
+[0;32mI (18825) MY_APP: Turning the LED![0m
+[0;32mI (18925) MY_APP: Turning the LED![0m
+[0;32mI (19025) MY_APP: Turning the LED![0m
+[0;32mI (19125) MY_APP: Turning the LED![0m
+[0;32mI (19225) MY_APP: Turning the LED![0m
+[0;32mI (19325) MY_APP: Turning the LED![0m
+[0;32mI (19425) MY_APP: Turning the LED![0m
+[0;32mI (19525) MY_APP: Turning the LED![0m
+[0;32mI (19625) MY_APP: Turning the LED![0m
+[0;32mI (19725) MY_APP: Turning the LED![0m
+[0;32mI (19825) MY_APP: Turning the LED![0m
+[0;32mI (19925) MY_APP: Turning the LED![0m
+[0;32mI (20025) MY_APP: Turning the LED![0m
+[0;32mI (20125) MY_APP: Turning the LED![0m
+[0;32mI (20225) MY_APP: Turning the LED![0m
+[0;32mI (20325) MY_APP: Turning the LED![0m
+[0;32mI (20425) MY_APP: Turning the LED![0m
+[0;32mI (20525) MY_APP: Turning the LED![0m
+[0;32mI (20625) MY_APP: Turning the LED![0m
+[0;32mI (20725) MY_APP: Turning the LED![0m
+[0;32mI (20825) MY_APP: Turning the LED![0m
+[0;32mI (20925) MY_APP: Turning the LED![0m
+[0;32mI (21025) MY_APP: Turning the LED![0m
+[0;32mI (21125) MY_APP: Turning the LED![0m
+[0;32mI (21225) MY_APP: Turning the LED![0m
+[0;32mI (21325) MY_APP: Turning the LED![0m
+[0;32mI (21425) MY_APP: Turning the LED![0m
+[0;32mI (21525) MY_APP: Turning the LED![0m
+[0;32mI (21625) MY_APP: Turning the LED![0m
+[0;32mI (21725) MY_APP: Turning the LED![0m
+[0;32mI (21825) MY_APP: Turning the LED![0m
+[0;32mI (21925) MY_APP: Turning the LED![0m
+[0;32mI (22025) MY_APP: Turning the LED![0m
+[0;32mI (22125) MY_APP: Turning the LED![0m
+[0;32mI (22225) MY_APP: Turning the LED![0m
+[0;32mI (22325) MY_APP: Turning the LED![0m
+[0;32mI (22425) MY_APP: Turning the LED![0m
+[0;32mI (22525) MY_APP: Turning the LED![0m
+[0;32mI (22625) MY_APP: Turning the LED![0m
+[0;32mI (22725) MY_APP: Turning the LED![0m
+[0;32mI (22825) MY_APP: Turning the LED![0m
+[0;32mI (22925) MY_APP: Turning the LED![0m
+[0;32mI (23025) MY_APP: Turning the LED![0m
+[0;32mI (23125) MY_APP: Turning the LED![0m
+[0;32mI (23225) MY_APP: Turning the LED![0m
+[0;32mI (23325) MY_APP: Turning the LED![0m
+[0;32mI (23425) MY_APP: Turning the LED![0m
+[0;32mI (23525) MY_APP: Turning the LED![0m
+[0;32mI (23625) MY_APP: Turning the LED![0m
+[0;32mI (23725) MY_APP: Turning the LED![0m
+[0;32mI (23825) MY_APP: Turning the LED![0m
+[0;32mI (23925) MY_APP: Turning the LED![0m
+[0;32mI (24025) MY_APP: Turning off the LED![0m
+[0;32mI (24125) MY_APP: Turning off the LED![0m
+[0;32mI (24225) MY_APP: Turning off the LED![0m
+[0;32mI (24325) MY_APP: Turning off the LED![0m
+[0;32mI (24425) MY_APP: Turning off the LED![0m
+[0;32mI (24525) MY_APP: Turning off the LED![0m
+[0;32mI (24625) MY_APP: Turning off the LED![0m
+[0;32mI (24725) MY_APP: Turning off the LED![0m
+[0;32mI (24825) MY_APP: Turning off the LED![0m
+[0;32mI (24925) MY_APP: Turning off the LED![0m
+[0;32mI (25025) MY_APP: Turning off the LED![0m
+[0;32mI (25125) MY_APP: Turning off the LED![0m
+[0;32mI (25225) MY_APP: Turning off the LED![0m
+[0;32mI (25325) MY_APP: Turning off the LED![0m
+[0;32mI (25425) MY_APP: Turning off the LED![0m
+[0;32mI (25525) MY_APP: Turning off the LED![0m
+[0;32mI (25625) MY_APP: Turning off the LED![0m
+[0;32mI (25725) MY_APP: Turning off the LED![0m
+[0;32mI (25825) MY_APP: Turning off the LED![0m
+[0;32mI (25925) MY_APP: Turning off the LED![0m
+[0;32mI (26025) MY_APP: Turning off the LED![0m
+[0;32mI (26125) MY_APP: Turning off the LED![0m
+[0;32mI (26225) MY_APP: Turning off the LED![0m
+[0;32mI (26325) MY_APP: Turning off the LED![0m
+[0;32mI (26425) MY_APP: Turning off the LED![0m

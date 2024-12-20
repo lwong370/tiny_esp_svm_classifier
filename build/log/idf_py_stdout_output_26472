@@ -1,0 +1,30 @@
+[1/977] cmd.exe /C "cd /D C:\Users\lanaw\BEAR_lab\pooh_band\learning_for_dev\esp\esp_liblinear_ex\build\esp-idf\main && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E echo "Failed to create SPIFFS image for partition 'storage'. " "Check project configuration if using the correct partition table file." && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E remove C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/build/esp-idf/main/LCGbn.cmake && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E env "FAIL_MESSAGE=Failing the build (see errors on lines above)" C:/Users/lanaw/esp/tools/cmake/3.24.0/bin/cmake.exe -P C:/Users/lanaw/esp/frameworks/esp-idf-v5.3.1/tools/cmake/scripts/fail.cmake"
+FAILED: esp-idf/main/CMakeFiles/spiffs_storage_bin C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/build/esp-idf/main/CMakeFiles/spiffs_storage_bin 
+cmd.exe /C "cd /D C:\Users\lanaw\BEAR_lab\pooh_band\learning_for_dev\esp\esp_liblinear_ex\build\esp-idf\main && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E echo "Failed to create SPIFFS image for partition 'storage'. " "Check project configuration if using the correct partition table file." && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E remove C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/build/esp-idf/main/LCGbn.cmake && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E env "FAIL_MESSAGE=Failing the build (see errors on lines above)" C:/Users/lanaw/esp/tools/cmake/3.24.0/bin/cmake.exe -P C:/Users/lanaw/esp/frameworks/esp-idf-v5.3.1/tools/cmake/scripts/fail.cmake"
+Failed to create SPIFFS image for partition 'storage'.  Check project configuration if using the correct partition table file.
+CMake Error at C:/Users/lanaw/esp/frameworks/esp-idf-v5.3.1/tools/cmake/scripts/fail.cmake:3 (message):
+  Failing the build (see errors on lines above)
+
+
+[2/977] cmd.exe /C "cd /D C:\Users\lanaw\BEAR_lab\pooh_band\learning_for_dev\esp\esp_liblinear_ex\build\esp-idf\partition_table && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E echo "Partition table CSV C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv does not exist." && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E echo "Either change partition table in menuconfig or create this input file." && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E remove C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/build/esp-idf/partition_table/IEZTC.cmake && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E env "FAIL_MESSAGE=Failing the build (see errors on lines above)" C:/Users/lanaw/esp/tools/cmake/3.24.0/bin/cmake.exe -P C:/Users/lanaw/esp/frameworks/esp-idf-v5.3.1/tools/cmake/scripts/fail.cmake"
+FAILED: esp-idf/partition_table/CMakeFiles/partition-table C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/build/esp-idf/partition_table/CMakeFiles/partition-table 
+cmd.exe /C "cd /D C:\Users\lanaw\BEAR_lab\pooh_band\learning_for_dev\esp\esp_liblinear_ex\build\esp-idf\partition_table && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E echo "Partition table CSV C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv does not exist." && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E echo "Either change partition table in menuconfig or create this input file." && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E remove C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/build/esp-idf/partition_table/IEZTC.cmake && C:\Users\lanaw\esp\tools\cmake\3.24.0\bin\cmake.exe -E env "FAIL_MESSAGE=Failing the build (see errors on lines above)" C:/Users/lanaw/esp/tools/cmake/3.24.0/bin/cmake.exe -P C:/Users/lanaw/esp/frameworks/esp-idf-v5.3.1/tools/cmake/scripts/fail.cmake"
+Partition table CSV C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/partitions.csv does not exist.
+Either change partition table in menuconfig or create this input file.
+CMake Error at C:/Users/lanaw/esp/frameworks/esp-idf-v5.3.1/tools/cmake/scripts/fail.cmake:3 (message):
+  Failing the build (see errors on lines above)
+
+
+[3/977] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,24K,
+phy_init,data,phy,0xf000,4K,
+factory,app,factory,0x10000,1M,
+storage,data,spiffs,0x110000,1M,
+*******************************************************************************
+[4/977] Generating C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/build/esp-idf/esp_system/ld/memory.ld linker script...
+[5/977] Generating C:/Users/lanaw/BEAR_lab/pooh_band/learning_for_dev/esp/esp_liblinear_ex/build/esp-idf/esp_system/ld/sections.ld.in linker script...
+ninja: build stopped: subcommand failed.
