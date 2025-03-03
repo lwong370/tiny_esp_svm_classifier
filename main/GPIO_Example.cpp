@@ -14,6 +14,7 @@
 #include "esp_spiffs.h"
 #include "driver/adc.h"  
 #include "esp_adc/adc_oneshot.h"
+#include "../src/fsr_reader.h"
 
 #define FSR_PIN ADC_CHANNEL_7 // Change this based on your ESP32-S3 board
 #define SAMPLES 100
@@ -185,29 +186,9 @@ int run_prediction() {
     return 0;
 }
 
-
 extern "C" void app_main(void) {
-    // FSR CODE
+        // FSR CODE
     xTaskCreate(&read_fsr_task, "read_fsr_task", 4096, NULL, 5, NULL);
     
     run_prediction();
-
-    // Initializing GPIO22 as input with a pull up. 
-    gpio_set_direction(GPIO_NUM_2, GPIO_MODE_INPUT);
-    gpio_set_pull_mode(GPIO_NUM_2, GPIO_PULLUP_ONLY);
-
-    // Initialize GPIO6 as output.
-    gpio_set_direction(GPIO_NUM_6, GPIO_MODE_OUTPUT);
-
-    while(true) {
-        if(gpio_get_level(GPIO_NUM_2)) {
-            gpio_set_level(GPIO_NUM_6, 0);
-            ESP_LOGI(TAG, "Turning off the LED!");
-
-        } else {
-            gpio_set_level(GPIO_NUM_6, 1);
-            ESP_LOGI(TAG, "Turning the LED!");
-        }
-        vTaskDelay(10);
-    }
 }
